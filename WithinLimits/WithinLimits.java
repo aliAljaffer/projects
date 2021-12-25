@@ -27,7 +27,7 @@ public class WithinLimits {
 	public WithinLimits() throws IOException {
 		WithinLimitsController.leaderboardLoader();
 		// rules image loading
-		URL url = new URL("https://github.com/aliAljaffer/projects/raw/main/WithinLimits/rules.png");
+		URL url = new URL("https://github.com/aliAljaffer/projects/raw/main/WithinLimits/images/rules.png");
 		ruleSet = ImageIO.read(url);
 		picLabel = new JLabel(new ImageIcon(ruleSet));
 		
